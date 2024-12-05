@@ -1,14 +1,13 @@
 import PropTypes from 'prop-types'
 
-const newMsg = () => {
-    return "Hola mundo!"
-}
-
 
 const FirstApp = ( {title, subTitle} ) => {
 
     return(
-        <h2>{ title+ subTitle}</h2>
+        <>
+            <h1>{ title }</h1>
+            <h2>{ subTitle }</h2>
+        </>
     )
 }
 
