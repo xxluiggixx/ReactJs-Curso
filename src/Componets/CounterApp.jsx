@@ -14,7 +14,7 @@ return(
     <h1>CounterApp</h1>
     <h2> { count } </h2>
     <button onClick={ increase }>{ '+1' }</button>
-    <button onClick={ reset }>{ 'Reset' }</button>
+    <button aria-label='btn-reset' onClick={ reset }>{ 'Reset' }</button>
     <button onClick={ decrease }>{ '-1' }</button>
     </>
 )
