@@ -4,6 +4,7 @@ import { GifExpertApp } from './GifExpertApp'
 import './style.css'
 
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <GifExpertApp />
